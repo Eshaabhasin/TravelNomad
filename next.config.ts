@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Output standalone for optimized Cloud Run Docker deployment
+  output: "standalone",
+
   // Strict mode for better dev-time warnings
   reactStrictMode: true,
 
